@@ -38,6 +38,14 @@ const Signin = ({ onRouteChange }) => {
               value="Sign in"
             />
           </div>
+          <div className="">
+            <input
+              onClick={() => onRouteChange("home")}
+              className="b mt3 ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
+              type="submit"
+              value="Continue as Guest"
+            />
+          </div>
           <div className="lh-copy mt3">
             <a href="#0" className="f6 link dim black db">
               Register
