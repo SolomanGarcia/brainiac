@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 class Register extends React.Component {
   constructor(props) {
@@ -42,7 +42,6 @@ class Register extends React.Component {
   };
 
   render() {
-    const { onRouteChange } = this.props;
     return (
       <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
@@ -92,14 +91,6 @@ class Register extends React.Component {
                 className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
                 type="submit"
                 value="Register"
-              />
-            </div>
-            <div className="">
-              <input
-                onClick={() => onRouteChange("home")}
-                className="b mt3 ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
-                type="submit"
-                value="Continue as Guest"
               />
             </div>
           </div>

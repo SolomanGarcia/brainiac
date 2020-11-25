@@ -27,12 +27,6 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
         >
           Register
         </p>
-        <p
-          onClick={() => onRouteChange("home")}
-          className="f3 link dim black underline pa3 pointer"
-        >
-          Guest
-        </p>
       </nav>
     );
   }
